@@ -1,0 +1,76 @@
+body{
+        background-color:#E4E4E4;
+        background-image:linear-gradient(top, #A7A7A7 0%, #E4E4E4 51%);
+        font-family: sans-serif;
+        font-size:12px;
+        height:100vh;
+        margin:0px;
+        padding:0px;width:100%;
+    }
+    @keyframes fade {
+        from { opacity: 1.0; }
+        50% { opacity: 0.4; }
+        to { opacity: 1.0; }
+    }
+    .blink{
+        animation:fade 2000ms infinite;
+    }
+    #modalKotak{
+        position: absolute;
+        position: fixed;
+        display: none;
+        background: white;
+        margin: 15% 25% 25% 25%;
+        width: 500px;
+        height: 300px;
+        z-index: 1002;
+        background: white;
+    }
+    
+    #atas{
+
+        font-size: 11pt;
+        padding: 20px;
+        height: 80%;
+    }
+    #bawah{
+        font-size: 10pt;
+        background: #fff;
+    }
+    #tombolTutup, #tombol{
+        height: 30px;
+        width: 200px;
+        color: #fff;
+        border: 0px;
+    }
+    #bg{
+        position: absolute;
+        display: none;
+        position: fixed;
+        top: 0%;
+        left: 0%;
+        width: 100%;
+        height: 100%;
+        background-color: #000;
+        z-index: 1001;
+        opacity: 0.7;
+    }
+    #tombolTutup{
+        background: #e74c3c;
+    }
+    .section{
+    display: none;
+    }
+    #isi{
+        width:500px;
+        border:#666666 solid 5px;
+        background-color:#FFFFFF;
+        border-radius:10px 10px 10px 10px;
+        margin-top:50px;
+        box-shadow:0px 0px 2px 2px #888;
+        margin: 5% 25% 25% 25%;
+            height: 250px;
+            position: absolute;
+            position: fixed;
+            background: white;
+    }
